@@ -11,5 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: mileschou/composer-action@master
-        with:
-          args: show -lo
+      - run: composer show -lo
