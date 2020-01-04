@@ -1,7 +1,7 @@
 {
     "name": "stefan.gohlke/composer-example",
     "require": {
-        "codeigniter/framework": "3.1.9"
+        "codeigniter/framework": "3.1.11"
     },
     "authors": [
         {
