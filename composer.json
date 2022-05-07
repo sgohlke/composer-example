@@ -1,12 +1,7 @@
 {
     "name": "stefan.gohlke/composer-example",
+    "description": "Dependency update test",
     "require": {
         "codeigniter/framework": "3.1.11"
-    },
-    "authors": [
-        {
-            "name": "stefangohlke",
-            "email": "secret@secret.de"
-        }
-    ]
+    }
 }
