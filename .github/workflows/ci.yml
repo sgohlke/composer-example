@@ -1,0 +1,14 @@
+name: Composer
+on:
+  push:
+  schedule:
+    - cron:  '0 3 * * *'
+
+jobs:
+  updatecheck:
+    name: Updatecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: composer install
+      - run: composer show -lo --strict
